@@ -16,7 +16,7 @@ class Main{
         int sum=0;
         while(p!=null){
             if(p.data!=0){
-                if((p.data%2)!=0){
+                if((p.data%2)==0){
                      sum++;
                 }
             }
