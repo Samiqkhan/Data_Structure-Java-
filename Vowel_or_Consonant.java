@@ -9,8 +9,11 @@ public class Solution {
         if(ch=='A' || ch =='a' || ch == 'E' || ch == 'e' || ch=='I' || ch=='i' || ch=='O' || ch =='o' || ch == 'U' || ch == 'u'){
             System.out.println("Vowel");
         }
-        else{
+        else if(ch>='A' && ch<='Z' || ch>='a' && ch<='z'){
             System.out.println("Consonant");
+        }
+        else{
+            System.out.println("Not an alphabet");
         }
     }
 }
